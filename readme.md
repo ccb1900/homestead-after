@@ -12,3 +12,6 @@ homestead provision
 - composer镜像
 - 软件源替换为阿里的
 - 安装zsh
+# todo
+- 如果镜像已经安装就跳过
+- 修改默认shell为zsh
