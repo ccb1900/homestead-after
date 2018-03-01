@@ -45,7 +45,7 @@ deb-src http://mirrors.aliyun.com/ubuntu/ xenial-proposed main restricted univer
 deb-src http://mirrors.aliyun.com/ubuntu/ xenial-backports main restricted universe multiverse
     "
     sudo echo "$block" > "/tmp/sources.list"
-    sudo mv /tmp/sources.list /etc/apt/sources.list##修改成功了
+    sudo mv /tmp/sources.list /etc/apt/sources.list ##修改成功了
 else
     echo '已经是阿里的了\n'##已经是阿里的了
 fi
